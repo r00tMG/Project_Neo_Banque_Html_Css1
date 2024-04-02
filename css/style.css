@@ -1,3 +1,5 @@
+
+
 *{
     margin :0;
     padding: 0;
@@ -5,11 +7,11 @@
     font-family:'Arimo Hebrew Subset Italic', 'Bold Itaic';
 }
 body{
-    background: #202901;
-    /* opacity: %; */
+    background: #404930;
     width: auto;
     font-family: 'Arimo Hebrew Subset Italic';
-    font-style: italic;
+    font-style: italic
+    ;
 
 }
 .navbar{
@@ -24,9 +26,9 @@ form, button{
     height: auto;
     background: #69782fd7;
     /* opacity: 20%; */
-    margin: auto;
+    /* margin: auto; */
     border-radius: 1.25rem;
-    
+   
 }
 .landing_h1{
   
@@ -58,12 +60,22 @@ form, button{
     text-align: center;
     padding-bottom: 1.87rem;
 }
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+ 
+}
 .cartes_landing{
     width: auto; 
     height: 23rem;
-
+   flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    margin-left: 120px;
 }
+
 .titre_why_oro{
     text-transform: uppercase;
     font-size: 2.767rem;
@@ -72,3 +84,13 @@ form, button{
     font-size: 1.313rem;
 } 
 
+.advantage_div{
+    opacity: 0.2;
+    display: flex;
+}
+
+.titre_benefits{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
