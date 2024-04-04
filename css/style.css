@@ -1,37 +1,45 @@
 
-
+/* Suppression des espacements par defaut,
+ la police et le style de l'affichage
+ */
 *{
     margin :0;
     padding: 0;
     color:#D9D9DB !important;
     font-family:'Arimo Hebrew Subset Italic', 'Bold Itaic';
 }
+/* Style du corps de pages */
 body{
     background: #404930;
+    max-width: 1440px;
     width: auto;
-    font-family: 'Arimo Hebrew Subset Italic';
-    font-style: italic
-    ;
-
+    font-family:'Arimo Hebrew Subset Italic', 'Itaic';
+    list-style: none;
 }
+
+/*  Style pour le navbar */
 .navbar{
 /*  background: #161c02;*/    
     height: 6.625;
 }
+
+/* Style du boutton dans landing section */
 form, button{
     color: black;
+    background-color: #F3EC58;
+    border-radius: 14px;
+    text-align: center;
 }
+
+/* Style de la section landing: titre, paragraphe, button, image */
 .landing_div{
     width: 82.063;
     height: auto;
     background: #69782fd7;
-    /* opacity: 20%; */
-    /* margin: auto; */
     border-radius: 1.25rem;
-   
+    border-color: #F3EC58 !important;
 }
 .landing_h1{
-  
     margin-top: calc(3% + 1.25rem);
     text-align:center;
     font-size:xx-large;
@@ -39,6 +47,7 @@ form, button{
     right: 24.84%;
     top: 10.36%;
     bottom: 86.39%;
+    text-shadow: 1px 1px #F3EC58 !important;
 
     font-family: 'Arimo Hebrew Subset Italic';
     font-style: italic;
@@ -58,7 +67,8 @@ form, button{
 }
 .position_btn{
     text-align: center;
-    padding-bottom: 1.87rem;
+    background-color: #F3EC58;
+    border-radius: 14px;
 }
 .container-img{
     display: flex;
@@ -76,6 +86,7 @@ form, button{
     margin-left: 120px;
 }
 
+/* Titre WhyOroBank + paragraphe*/
 .titre_why_oro{
     text-transform: uppercase;
     font-size: 2.767rem;
@@ -84,13 +95,33 @@ form, button{
     font-size: 1.313rem;
 } 
 
+/* Image carte vituelle  */
 .advantage_div{
-    opacity: 0.2;
+    opacity: 1.5;
     display: flex;
+    mix-blend-mode:luminosity;
+
+
 }
 
+/* Titre OroBankBenefits + classe cards + icone */
 .titre_benefits{
     margin-top: 10%;
     margin-bottom: 5%;
     text-transform: uppercase;
 }
+.benefits{
+    display: flex;
+}
+.cards_benefits{
+    height: 80px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img-fluid_benefits {
+    width: 70px;
+    height: 70px;
+    }
+
+    
