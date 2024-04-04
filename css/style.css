@@ -6,13 +6,13 @@
     margin :0;
     padding: 0;
     color:#D9D9DB !important;
-    font-family:'Arimo Hebrew Subset Italic', 'Bold Itaic';
+    font-family:'Arimo Hebrew Subset Italic', 'Itaic';
 }
 /* Style du corps de pages */
 body{
     background: #404930;
-    max-width: 1440px;
-    width: auto;
+    /* min-width: 1440px;  */
+    /* width: auto; */
     font-family:'Arimo Hebrew Subset Italic', 'Itaic';
     list-style: none;
 }
@@ -100,8 +100,6 @@ form, button{
     opacity: 1.5;
     display: flex;
     mix-blend-mode:luminosity;
-
-
 }
 
 /* Titre OroBankBenefits + classe cards + icone */
